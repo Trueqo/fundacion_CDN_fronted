@@ -1,5 +1,5 @@
 import axios from "axios";
-const urlApi = 'https://fundacion-cdn.vercel.app/'
+const urlApi = 'https://fundacion-cdn.vercel.app'
 
 
 

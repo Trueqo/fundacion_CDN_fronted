@@ -7,7 +7,7 @@ const Matriz = () => {
 
     const sendDataMultipleDevices = async (data) => {
         try {
-            const response = await Axios.post('createmultipledevices', JSON.stringify(data), {
+            const response = await Axios.post('/createmultipledevices', JSON.stringify(data), {
                 headers: {
                     'Content-Type': 'application/json'
                 },
