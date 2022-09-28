@@ -18,7 +18,6 @@ const Dashboard = () => {
         <div className='w-full h-screen'>
           {component === 1 && <Home/>}
           {component === 2 && <Matriz/>}
-          {component === 3 && <AddInformation/>}
           {component === 4 && <Add/>}
         </div>
     </div>

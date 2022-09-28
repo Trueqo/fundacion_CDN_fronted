@@ -21,9 +21,9 @@ const Sidebar = ({handleShow}) => {
                 <li className='mb-[2.5rem] border-b-[0.1rem] w-full text-center border-gray-500'>
                     <button onClick={()=>{handleShow(2)}} className='w-full'>Matriz</button>
                 </li>
-                <li className='mb-[2.5rem] border-b-[0.1rem] w-full text-center border-gray-500'>
+                {/* <li className='mb-[2.5rem] border-b-[0.1rem] w-full text-center border-gray-500'>
                     <button onClick={()=>{handleShow(3)}} className='w-full'>Ingresar informacion</button>
-                </li>
+                </li> */}
                 <li className='mb-[2.5rem] border-b-[0.1rem] w-full text-center border-gray-500'>
                     <button onClick={()=>{handleShow(4)}} className='w-full'>Añadir equipo biomedico</button>
                 </li>

@@ -18,3 +18,4 @@ export function getDevices() {
         Axios.get('getdevice')
     )
 }
+
