@@ -15,7 +15,7 @@ const Home = ({showModal, setShowModal}) => {
   const [filterData, setFilterData] = useState([])
 
   useEffect(() => {
-    Axios.get(getdevice)
+    Axios.get('https://fundacion-cdn.vercel.app/getdevice')
       .then(res => {
         setData(res.data)
         setFilterData(res.data)
