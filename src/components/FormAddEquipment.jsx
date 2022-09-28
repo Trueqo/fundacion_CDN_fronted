@@ -221,7 +221,7 @@ const FormAddEquipment = () => {
 
                                 <label htmlFor='dRespuestos'>¿Disponibilidad de respuestos?</label>
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="dRespuestos">No</label>
+                                    <label htmlFor="dRespuestos">No</label>
                                     <input
                                         type="checkbox"
                                         id="dRespuestos"
@@ -234,7 +234,7 @@ const FormAddEquipment = () => {
                                 </div>
 
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="dRespuestos">Sí</label>
+                                    <label htmlFor="dRespuestos">Sí</label>
                                     <input
                                         type="checkbox"
                                         id="dRespuestos"
@@ -250,7 +250,7 @@ const FormAddEquipment = () => {
 
                                 <label htmlFor='seFabrica'>¿Todavía se fabrica?</label>
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="seFabrica">No</label>
+                                    <label htmlFor="seFabrica">No</label>
                                     <input
                                         type="checkbox"
                                         id="seFabrica"
@@ -262,7 +262,7 @@ const FormAddEquipment = () => {
                                 </div>
 
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="seFabrica">Sí</label>
+                                    <label htmlFor="seFabrica">Sí</label>
                                     <input
                                         type="checkbox"
                                         id="seFabrica"
@@ -279,14 +279,14 @@ const FormAddEquipment = () => {
                                 <label htmlFor='existeMejorTecnologia'>¿Existe mejor tecnología?</label>
 
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="existeMejorTecnologia">Sí</label>
+                                    <label htmlFor="existeMejorTecnologia">Sí</label>
                                     <input type="radio" id="existeMejorTecnologia" name="existeMejorTecnologia" value="1"
                                         onChange={handleChange}
                                         onBlur={handleBlur}
                                     />
                                 </div>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="existeMejorTecnologia">No</label>
+                                    <label htmlFor="existeMejorTecnologia">No</label>
                                     <input type="radio" id="existeMejorTecnologia" name="existeMejorTecnologia" value="0"
                                         onChange={handleChange}
                                         onBlur={handleBlur}
@@ -297,21 +297,21 @@ const FormAddEquipment = () => {
                             <div className="flex flex-col border border-gray-500 text-center">
                                     <label htmlFor='nivelDeCriticidad'>Nivel de criticidad</label>
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="nivelDeCriticidad">Baja</label>
+                                    <label htmlFor="nivelDeCriticidad">Baja</label>
                                     <input type="radio" id="nivelDeCriticidad" name="nivelDeCriticidad" value="1"
                                         onChange={handleChange}
                                         onBlur={handleBlur}
                                     />
                                 </div>
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="nivelDeCriticidad">Media</label>
+                                    <label htmlFor="nivelDeCriticidad">Media</label>
                                     <input type="radio" id="nivelDeCriticidad" name="nivelDeCriticidad" value="2"
                                         onChange={handleChange}
                                         onBlur={handleBlur}
                                     />
                                 </div>
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="nivelDeCriticidad">Alta</label>
+                                    <label htmlFor="nivelDeCriticidad">Alta</label>
                                     <input type="radio" id="nivelDeCriticidad" name="nivelDeCriticidad" value="3"
                                         onChange={handleChange}
                                         onBlur={handleBlur}
@@ -323,7 +323,7 @@ const FormAddEquipment = () => {
 
                                 <label htmlFor='cumpleNecesidadesActuales'>¿El equipo cumple las necesidades actuales?</label>
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="cumpleNecesidadesActuales">No</label>
+                                    <label htmlFor="cumpleNecesidadesActuales">No</label>
                                     <input
                                         type="checkbox"
                                         id="cumpleNecesidadesActuales"
@@ -335,7 +335,7 @@ const FormAddEquipment = () => {
                                 </div>
 
                                 <div className='flex justify-center gap-x-2'>
-                                    <label for="cumpleNecesidadesActuales">Sí</label>
+                                    <label htmlFor="cumpleNecesidadesActuales">Sí</label>
                                     <input
                                         type="checkbox"
                                         id="cumpleNecesidadesActuales"
@@ -350,19 +350,19 @@ const FormAddEquipment = () => {
                             <div className="flex flex-col border border-gray-500 text-center">
                                 <label htmlFor='inspeccionVisual'>Inspeccion visual</label>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="inspeccionVisual">Bueno</label>
+                                    <label htmlFor="inspeccionVisual">Bueno</label>
                                     <input type="radio" id="inspeccionVisual" name="inspeccionVisual" value="1"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
                                 </div>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="inspeccionVisual">Regular</label>
+                                    <label htmlFor="inspeccionVisual">Regular</label>
                                     <input type="radio" id="inspeccionVisual" name="inspeccionVisual" value="2"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
                                 </div>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="inspeccionVisual">Malo</label>
+                                    <label htmlFor="inspeccionVisual">Malo</label>
                                     <input type="radio" id="inspeccionVisual" name="inspeccionVisual" value="3"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
@@ -373,13 +373,13 @@ const FormAddEquipment = () => {
                             <div className="flex flex-col border border-gray-500 text-center">
                                 <label htmlFor='haSidoRepadado'>¿Ha sido reparado?</label>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="haSidoRepadado">Sí</label>
+                                    <label htmlFor="haSidoRepadado">Sí</label>
                                     <input type="radio" id="haSidoRepadado" name="haSidoRepadado" value="1"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
                                 </div>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="haSidoRepadado">No</label>
+                                    <label htmlFor="haSidoRepadado">No</label>
                                     <input type="radio" id="haSidoRepadado" name="haSidoRepadado" value="0"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
@@ -403,13 +403,13 @@ const FormAddEquipment = () => {
                             <div className="flex flex-col border border-gray-500 text-center">
                                 <label htmlFor='cumpleMantenimiento'>¿El equipo cumple con los mantenimientos?</label>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="cumpleMantenimiento">Sí</label>
+                                    <label htmlFor="cumpleMantenimiento">Sí</label>
                                     <input type="radio" id="cumpleMantenimiento" name="cumpleMantenimiento" value="1"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
                                 </div>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="cumpleMantenimiento">No</label>
+                                    <label htmlFor="cumpleMantenimiento">No</label>
                                     <input type="radio" id="cumpleMantenimiento" name="cumpleMantenimiento" value="0"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
@@ -419,13 +419,13 @@ const FormAddEquipment = () => {
                             <div className="flex flex-col border border-gray-500 text-center">
                                 <label htmlFor='incidentesOEventos'>¿Se han presentados incidentes o eventos?</label>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="incidentesOEventos">Sí</label>
+                                    <label htmlFor="incidentesOEventos">Sí</label>
                                     <input type="radio" id="incidentesOEventos" name="incidentesOEventos" value="1"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
                                 </div>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="incidentesOEventos">No</label>
+                                    <label htmlFor="incidentesOEventos">No</label>
                                     <input type="radio" id="incidentesOEventos" name="incidentesOEventos" value="0"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
@@ -435,13 +435,13 @@ const FormAddEquipment = () => {
                             <div className="flex flex-col border border-gray-500 text-center">
                                 <label htmlFor='cumpleParametrosParaAtencion'>¿Cumple parametros para la atención?</label>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="cumpleParametrosParaAtencion">Sí</label>
+                                    <label htmlFor="cumpleParametrosParaAtencion">Sí</label>
                                     <input type="radio" id="cumpleParametrosParaAtencion" name="cumpleParametrosParaAtencion" value="1"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
                                 </div>
                                 <div className='flex flex-row gap-x-2 justify-center'>
-                                    <label for="cumpleParametrosParaAtencion">No</label>
+                                    <label htmlFor="cumpleParametrosParaAtencion">No</label>
                                     <input type="radio" id="cumpleParametrosParaAtencion" name="cumpleParametrosParaAtencion" value="0"
                                         onChange={handleChange}
                                         onBlur={handleBlur} />
