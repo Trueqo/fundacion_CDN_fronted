@@ -15,7 +15,7 @@ const Home = ({showModal, setShowModal}) => {
   const [filterData, setFilterData] = useState([])
 
   useEffect(() => {
-    Axios.get('/getdevice')
+    Axios.get(getdevice)
       .then(res => {
         setData(res.data)
         setFilterData(res.data)
